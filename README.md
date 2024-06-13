@@ -1,35 +1,46 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
-
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+## Education	 			        		
+- B.S., Material Science and Mechanical Engineering | The Yokohama National University (_Apr 2014 ‒ Mar 2019_)
+- Exchange Program, School of Informatics | The University of Edinburgh at Scotland (_Sep 2016 ‒ May 2017_)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Sr.Engineer @ Amazon Japan, Customer Packaging Experience (CPEX) (_Nov 2019 - Feb 2021, Dec 2023 - Present_)**
+- l Led the development of Multi-Modal machine learning classification model using text and image data that identifies among over ten million products without the need of additional packaging materials, resulted in $9M of material and shipping cost savings.
+- l Employed genetic algorithms to compute 26 optimized box configurations from a shipping dataset of 500,000 items, contributing to a Cube Reduction equivalent to $700K by maximizing truck loading capacity.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**System Engineer @ Amazon Japan, Control Engineer (_Apr 2019 - Oct 2019, Mar 2021 - Nov 2023_)**
+- Led the creation and implementation of a warehouse visualization system on a team of 4, deployed across six warehouses with 500+ users. Successfully handled 300+ troubleshooting tickets.
+- Developed a tool for warehouse operations using Python, empowering on-site team to monitor the remaining unpicked items for each truck shipment time, reduced $400K in unnecessary server expenses.
+- Successfully migrated the MySQL community database used in the monitoring tool to Aurora MySQL RDS, implementing AWS auto-scaling functions which has resulted in a 20% reduction in CPU traffic.
+
+**Full time internship @ Datumix Corp., Tokyo Japan/California U.S. (_Sep 2018 - Mar 2019_)**
+- Simulated the unmanned Multi-Shuttle System for warehouse loading and enhanced the efficiency of shipping order for multi-order items by applying reinforcement learning.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
+### Box Optimization with Genetic Algorithm to find Best Fitted Box Suite
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Box Optimization Project aimed at reducing and optimizing box types used in Amazon Fulfillment Centers to improve shipment efficiency. There are currently 400 box types managed across centers, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation Approach will align box suites by Fulfillment Center type, consolidate rarely used boxes, halt rarely used box production, and optimize air ratio; it is initially being implemented across all Sortable Centers where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. The consolidation approach employs a genetic algorithm to swiftly determine optimal box lineups specialized for each Fulfillment Center type out of the vast number of possible box combinations.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![box_consolidation image](/assets/img/box_consolidation1.png)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
+### SIOC ML Prioritized Inventory Expansion Program
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging. To increase SIOC shipments, our team provides a prioritized list of products to inspect if they meet SIOC standards. A machine learning model was developed to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data and improved over time, most recently in September 2023 using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over 500M JPY in cost savings in 2023.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![SIOC image](/assets/img/SIOC.png)
+
+
+### Programming: Python, Shell script, C++, HTML, JavaScript
+### Tools & Technologies: Machine Learning, Git, AWS (Sagemaker, RDS, EC2, S3), Hubble, ETL, Django, Flask, Docker, Linux, MySQL, NLP, MATLAB
+### Languages: Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
+
+## Extracurricular Achievements:
+- Programming Competition: Joined 6 competitions with a highest position of top 2.2% on [Signate](https://signate.jp/users/50394) / Attained a ranking A with a highest position of top 8% on Paiza / Solved 140+ problems on [Leetcode](https://leetcode.com/keyy1019/)
+- Volunteer Work: Engaged in volunteer work for decontamination efforts in Fukushima following the tsunami of the Great East Japan Earthquake in 2011. Teaching school children in Ghana through Volunteer4Africa program on May 2017.
+
 
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
@@ -42,14 +53,11 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 - [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
+- Norimitsu Koga, Takayuki Yamashita, Keisuke Ogawa, Osamu Umezawa: Statistical Analysis of Influential Factors on the Stability of Retained Austenite in Low Alloy TRIP Steel [Publication](https://www.jstage.jst.go.jp/article/matertrans/63/5/63_MT-M2021239/_article/-char/en)
 
-- [Data Science Blog](https://medium.com/@shawhin)
+## Hobbies
+Drum, Football, Swimming, Exploring Abroad
+This is the picture of playing the drum in the studio.
+![drum image](/assets/img/drum.PNG)
+
+
