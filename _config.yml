@@ -5,12 +5,11 @@ show_downloads: false
 theme: jekyll-theme-minimal
 repository: "keeesuke/keeesuke.github.io"
 author:
-	avatar: "/assets/img/headshot.png"
-	pronouns: "he"
-	bio: "Short biography of me"
-	location: "Tokyo/Japan"
+   avatar: "/assets/img/headshot.png"
+   pronouns: "he"
+   bio: "Short biography of me"
+   location: "Tokyo/Japan"
 	
-	kaggle: "keisukeo"
+   kaggle: "keisukeo"
 twitter: 
-	username: "keisuke"
-
+   username: "keisuke"
