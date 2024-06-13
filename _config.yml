@@ -3,12 +3,8 @@ logo: /assets/img/headshot.png
 description: I'm enthusiastic about all AI fields related to the evolution of robotics, such as LLM, Image Recognition, and Reinforcement Learning. My vision is to replace human tasks with robots through robotics, aiming for a world where people can live creatively and freely, reaching places unattainable by humans alone.
 show_downloads: false
 theme: jekyll-theme-minimal
-repository: "keeesuke/keeesuke.github.io"
-author:
-   avatar: "/assets/img/headshot.png"
-   pronouns: "he"
-   bio: "Short biography of me"
-   location: "Tokyo/Japan"
-   kaggle: "keisukeo"
-twitter: 
-   username: "keisuke"
+
+layout: page
+title: "box-consolidation-project"
+permalink: /box-consolidation
+
