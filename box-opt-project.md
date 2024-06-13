@@ -4,4 +4,4 @@ title: Project
 ---
 
 # Project Page
-ここにプロジェクトの詳細を書きます。
+project detail here

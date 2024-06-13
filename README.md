@@ -2,7 +2,7 @@
 
 ## Education	 			        		
 - B.S., Material Science and Mechanical Engineering | The Yokohama National University (_Apr 2014 ‒ Mar 2019_)
-- Exchange Program, School of Informatics | The University of Edinburgh at Scotland (_Sep 2016 ‒ May 2017_)
+- Exchange Program, School of Informatics | The University of Edinburgh in Scotland (_Sep 2016 ‒ May 2017_)
 
 ## Work Experience
 **Sr.Engineer @ Amazon Japan, Customer Packaging Experience (CPEX) (_Nov 2019 - Feb 2021, Dec 2023 - Present_)**
@@ -26,7 +26,7 @@ Box Optimization Project aimed at reducing and optimizing box types used in Amaz
 ![box_consolidation image](/assets/img/box_consolidation1.png)
 
 ### SIOC ML Prioritized Inventory Expansion Program
-[Full Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+[Full Publication](/sioc-text-ml-project)
 
 Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging. To increase SIOC shipments, our team provides a prioritized list of products to inspect if they meet SIOC standards. A machine learning model was developed to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data and improved over time, most recently in September 2023 using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over 500M JPY in cost savings in 2023.
 
@@ -50,7 +50,7 @@ Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping i
 ## Hobbies
 Drum, Football, Swimming, Exploring Abroad
 
-This is the picture of playing the drum in the studio.
+This is me playing the drum in the studio.
 ![drum image](/assets/img/drum.PNG)
 
 
