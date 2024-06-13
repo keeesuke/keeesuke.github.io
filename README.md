@@ -19,44 +19,36 @@
 
 ## Projects
 ### Box Optimization with Genetic Algorithm to find Best Fitted Box Suite
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+[Full Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 Box Optimization Project aimed at reducing and optimizing box types used in Amazon Fulfillment Centers to improve shipment efficiency. There are currently 400 box types managed across centers, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation Approach will align box suites by Fulfillment Center type, consolidate rarely used boxes, halt rarely used box production, and optimize air ratio; it is initially being implemented across all Sortable Centers where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. The consolidation approach employs a genetic algorithm to swiftly determine optimal box lineups specialized for each Fulfillment Center type out of the vast number of possible box combinations.
 
 ![box_consolidation image](/assets/img/box_consolidation1.png)
 
 ### SIOC ML Prioritized Inventory Expansion Program
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+[Full Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging. To increase SIOC shipments, our team provides a prioritized list of products to inspect if they meet SIOC standards. A machine learning model was developed to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data and improved over time, most recently in September 2023 using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over 500M JPY in cost savings in 2023.
 
 ![SIOC image](/assets/img/SIOC.png)
 
 
-### Programming: Python, Shell script, C++, HTML, JavaScript
-### Tools & Technologies: Machine Learning, Git, AWS (Sagemaker, RDS, EC2, S3), Hubble, ETL, Django, Flask, Docker, Linux, MySQL, NLP, MATLAB
-### Languages: Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
+### Programming:
+Python, Shell script, C++, HTML, JavaScript
+### Tools & Technologies:
+Machine Learning, Git, AWS (Sagemaker, RDS, EC2, S3), Hubble, ETL, Django, Flask, Docker, Linux, MySQL, NLP, MATLAB
+### Languages:
+Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
 
 ## Extracurricular Achievements:
 - Programming Competition: Joined 6 competitions with a highest position of top 2.2% on [Signate](https://signate.jp/users/50394) / Attained a ranking A with a highest position of top 8% on Paiza / Solved 140+ problems on [Leetcode](https://leetcode.com/keyy1019/)
 - Volunteer Work: Engaged in volunteer work for decontamination efforts in Fukushima following the tsunami of the Great East Japan Earthquake in 2011. Teaching school children in Ghana through Volunteer4Africa program on May 2017.
 
-
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
-
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
-
 ## Publications
 - Norimitsu Koga, Takayuki Yamashita, Keisuke Ogawa, Osamu Umezawa: Statistical Analysis of Influential Factors on the Stability of Retained Austenite in Low Alloy TRIP Steel [Publication](https://www.jstage.jst.go.jp/article/matertrans/63/5/63_MT-M2021239/_article/-char/en)
 
 ## Hobbies
-Drum, Football, Swimming, Exploring Abroad
+Drum, Football, Swimming, Exploring Abroad\n
 This is the picture of playing the drum in the studio.
 ![drum image](/assets/img/drum.PNG)
 
