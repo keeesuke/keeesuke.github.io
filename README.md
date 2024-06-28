@@ -5,9 +5,10 @@
 - Exchange Program, School of Informatics | The University of Edinburgh in Scotland (_Sep 2016 ‒ May 2017_)
 
 ## Work Experience
-**Sr.Engineer @ Amazon Japan, Customer Packaging Experience (CPEX) (_Nov 2019 - Feb 2021, Dec 2023 - Present_)**
+**Sr.Engineer @ Amazon Japan, Customer Packaging Experience (_Nov 2019 - Feb 2021, Dec 2023 - Present_)**
 - Led the development of Multi-Modal machine learning classification model using text and image data that identifies among over ten million products without the need of additional packaging materials, resulted in $9M of material and shipping cost savings.
 - Employed genetic algorithms to compute 26 optimized box configurations from a shipping dataset of 500,000 items, contributing to a Cube Reduction equivalent to $700K by maximizing truck loading capacity.
+- Installed cameras on warehouse conveyors to capture images of over 200,000 products, used image recognition to identify discrepancies in registered product sizes, and assigning smaller packages to save $500K annually in transportation costs.
 
 **System Engineer @ Amazon Japan, Control Engineer (_Apr 2019 - Oct 2019, Mar 2021 - Nov 2023_)**
 - Led the creation and implementation of a warehouse visualization system on a team of 4, deployed across six warehouses with 500+ users. Successfully handled 300+ troubleshooting tickets.
@@ -35,8 +36,10 @@ Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping i
 
 ### Programming:
 - Python, Shell script, C++, HTML, JavaScript
+
 ### Tools & Technologies:
 - Machine Learning, Git, AWS (Sagemaker, RDS, EC2, S3), Hubble, ETL, Django, Flask, Docker, Linux, MySQL, NLP, MATLAB
+
 ### Languages:
 - Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
 

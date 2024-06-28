@@ -1,10 +1,9 @@
 title: Keisuke Ogawa
 logo: /assets/img/headshot.png
-description: I'm enthusiastic about all AI fields related to the evolution of robotics, such as LLM, Image Recognition, and Reinforcement Learning. My vision is to replace human tasks with robots through robotics, aiming for a world where people can live creatively and freely, reaching places unattainable by humans alone.
+description: I'm enthusiastic about all AI fields related to the evolution of intelligent robotics, such as Machine Learning, LLM, and Image Recognition. My vision is to replace human tasks with robots through automation, aiming for a world where people can live creatively and freely, reaching places unattainable by humans alone.
 show_downloads: false
 theme: jekyll-theme-minimal
 
 layout: page
-title: "box-consolidation-project"
 permalink: /box-consolidation
 
