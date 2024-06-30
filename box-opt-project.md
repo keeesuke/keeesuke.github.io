@@ -99,8 +99,23 @@ $$
 \text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}
 $$
 
-$\text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}$
 
+<div>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML">
+  </script>
+</div>
+
+<p>
+  <span>$$\text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}$$</span>
+</p>
 
 
 - Selection
