@@ -1,16 +1,5 @@
-<!--
-How to convert word to markdown .md file:
-$ pandoc <word_file_name.docx> -t markdown-raw_html-native_divs-native_spans -o <markdown_file_name.md>
-
-Or this way:
-$ pandoc -s 入力.docx --wrap=none --extract-media=media -t gfm -o 出力.md
-
--->
-
 # Data Scientist
-<div style="border: 2px solid #4CAF50; padding: 20px; border-radius: 10px;">
-
-## Education	 			        		
+## Education	        		
 - B.S., Material Science and Mechanical Engineering | The Yokohama National University (_Apr 2014 ‒ Mar 2019_)
 - Exchange Program, School of Informatics | The University of Edinburgh in Scotland (_Sep 2016 ‒ May 2017_)
 
