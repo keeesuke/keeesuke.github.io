@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## SIOC Machine Learning Prioritized Inventory Expansion Program Overview
 Ship in Own Container (SIOC) is a shipping type that allows products to
 be shipped without any additional Amazon packaging. SIOC shipments

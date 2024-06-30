@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## Box Consolidation Overview
 
 \"Box Consolidation Approach\" aimed at selecting and implementing the
@@ -98,25 +102,6 @@ solution size for both single or multi-ship products.
 $$
 \text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}
 $$
-
-
-<div>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    });
-  </script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML">
-  </script>
-</div>
-
-<p>
-  <span>$$\text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}$$</span>
-</p>
-
 
 - Selection
 
