@@ -1,6 +1,4 @@
-# SIOC Machine Learning Prioritized Inventory Expansion Program
-
-## Overview
+## SIOC Machine Learning Prioritized Inventory Expansion Program Overview
 Ship in Own Container (SIOC) is a shipping type that allows products to
 be shipped without any additional Amazon packaging. SIOC shipments
 reduce shipping supply costs and transportation costs through decreased

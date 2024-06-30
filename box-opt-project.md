@@ -95,7 +95,11 @@ individual. The volume of air is defined as the volume inside the
 smallest box that can contain the dimensions of each product, using the
 solution size for both single or multi-ship products.
 
-$$Air\ Ratio\ (\%) = 100\  \times \ \frac{\sum_{}^{}{{(\left\lbrack \text{Fitted\ Box\ Volume} \right\rbrack}_{k} - \ \left\lbrack \text{Each\ Shipment\ Volume} \right\rbrack_{k})}}{\sum_{}^{}\left\lbrack \text{Fitted\ Box\ Volume} \right\rbrack_{k}}$$
+$$
+\text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}
+$$
+
+
 
 - Selection
 
