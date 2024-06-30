@@ -1,4 +1,14 @@
+<!--
+How to convert word to markdown .md file:
+$ pandoc <word_file_name.docx> -t markdown-raw_html-native_divs-native_spans -o <markdown_file_name.md>
+
+Or this way:
+$ pandoc -s 入力.docx --wrap=none --extract-media=media -t gfm -o 出力.md
+
+-->
+
 # Data Scientist
+<div style="border: 2px solid #4CAF50; padding: 20px; border-radius: 10px;">
 
 ## Education	 			        		
 - B.S., Material Science and Mechanical Engineering | The Yokohama National University (_Apr 2014 ‒ Mar 2019_)
@@ -11,7 +21,7 @@
 - Installed cameras on warehouse conveyors to capture images of over 200,000 products, used image recognition to identify discrepancies in registered product sizes, and assigning smaller packages to save $500K annually in transportation costs.
 
 **System Engineer @ Amazon Japan, Control Engineer (_Apr 2019 - Oct 2019, Mar 2021 - Nov 2023_)**
-- Led the creation and implementation of a warehouse visualization system on a team of 4, deployed across six warehouses with 500+ users. Successfully handled 300+ troubleshooting tickets.
+- Led the implementation of a monitoring system used by over 500+ users nationwide, overseeing the launch of 6 warehouses and managing all aspects from system design to development, testing, deployment, and maintenance.
 - Developed a tool for warehouse operations using Python, empowering on-site team to monitor the remaining unpicked items for each truck shipment time, reduced $400K in unnecessary server expenses.
 - Successfully migrated the MySQL community database used in the monitoring tool to Aurora MySQL RDS, implementing AWS auto-scaling functions which has resulted in a 20% reduction in CPU traffic.
 
@@ -20,16 +30,16 @@
 
 ## Projects
 ### Box Optimization with Genetic Algorithm to find Best Fitted Box Suite
-[Full Publication](/box-opt-project)
+[Full Project Description](/box-opt-project)
 
-Box Optimization Project aimed at reducing and optimizing box types used in Amazon Fulfillment Centers to improve shipment efficiency. There are currently 400 box types managed across centers, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation Approach will align box suites by Fulfillment Center type, consolidate rarely used boxes, halt rarely used box production, and optimize air ratio; it is initially being implemented across all Sortable Centers where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. The consolidation approach employs a genetic algorithm to swiftly determine optimal box lineups specialized for each Fulfillment Center type out of the vast number of possible box combinations.
+Box Optimization Project aimed at reducing and optimizing box types used in Amazon Fulfillment Centers (FC) to improve shipment efficiency. There were 400 box types managed across FC network, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation Approach will align box suites by FC type, consolidate boxes, halt less-used box production, and optimize air ratio; it is initially being implemented across all Sortable FCs where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. The consolidation approach employs a genetic algorithm to swiftly determine optimal box lineups specialized for each FC type out of the vast number of possible box combinations.
 
-![box_consolidation image](/assets/img/box_consolidation1.png)
+![box_consolidation image](/assets/img/box_consolidation.png)
 
 ### SIOC ML Prioritized Inventory Expansion Program
-[Full Publication](/sioc-text-ml-project)
+[Full Project Description](/sioc-text-ml-project)
 
-Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging. To increase SIOC shipments, our team provides a prioritized list of products to inspect if they meet SIOC standards. A machine learning model was developed to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data and improved over time, most recently in September 2023 using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over 500M JPY in cost savings in 2023.
+Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging. To increase SIOC shipments, our team provides a prioritized list of products to inspect if they meet SIOC standards. A machine learning model was developed to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data and improved over time, using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over 500M JPY in cost savings anually.
 
 ![SIOC image](/assets/img/SIOC.png)
 
@@ -48,12 +58,12 @@ Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping i
 - Volunteer Work: Engaged in volunteer work for decontamination efforts in Fukushima following the tsunami of the Great East Japan Earthquake in 2011. Teaching school children in Ghana through Volunteer4Africa program on May 2017.
 
 ## Publications
-- Norimitsu Koga, Takayuki Yamashita, Keisuke Ogawa, Osamu Umezawa: [Statistical Analysis of Influential Factors on the Stability of Retained Austenite in Low Alloy TRIP Steel](https://www.jstage.jst.go.jp/article/matertrans/63/5/63_MT-M2021239/_article/-char/en)
+- Norimitsu Koga, Takayuki Yamashita, Keisuke Ogawa, Osamu Umezawa: [Statistical Analysis of Influential Factors on the Stability of Retained Austenite in Low Alloy TRIP Steel](https://www.jstage.jst.go.jp/article/matertrans/63/5/63_MT-M2021239/_article/-char/en). 2022 Volume 63 Issue 5 Pages 693-702.
 
 ## Hobbies
 Drum, Football, Swimming, Exploring Abroad
 
-This is me playing the drum in the studio.
+Me playing the drum in the studio!
 ![drum image](/assets/img/drum.PNG)
 
 
