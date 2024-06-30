@@ -55,9 +55,9 @@ boxes.
 We aim to calculate the combination of boxes that minimizes the air
 ratio for Sortable FCs from the 400 types of boxes used across the
 network. For instance, if we choose 73 types of boxes used in FCs, the
-number of possible combinations is
-$1.8 \times 10^{18}\ ( \cong \ \frac{400!}{73!\  \times 327!})$. It is
-nearly impossible to compute this using a brute force method, so we seek
+number of possible combinations is:
+$$1.8 \times 10^{18}\ ( \cong \ \frac{400!}{73!\  \times 327!})$$
+It is nearly impossible to compute this using a brute force method, so we seek
 an approximate optimal solution. This is a typical combinatorial
 optimization problem, known as an NP-hard problem, where the goal is to
 find a combination that optimizes an evaluation function under various
@@ -181,7 +181,8 @@ The Box lineup before and after consolidation changed as follows. Although the A
 | **TOTAL**      | 444,622          | **55.20%**  | 200,639,952         | 363,502,902    |              | 444,622          | **52.30%**| 169,026,191          | 323,179,181    |
 
 
-## Appendix: Why is Genetic Algorithm suitable for consolidation?
+## Appendix:
+### Why is Genetic Algorithm suitable for consolidation?
 
 There are multiple algorithms available to achieve consolidation. For
 this project, I chose to adopt a genetic algorithm. One reason for this

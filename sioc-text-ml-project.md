@@ -141,6 +141,7 @@ The below confusion matrix for the test data highlights that the number
 of false positives and false negatives is relatively low compared to the
 number of true positives and true negatives, indicating the model\'s
 robustness.
+
 | Prediction result | Accuracy   | Formula                                | Description                                                |
 |-------------------|------------|----------------------------------------|------------------------------------------------------------|
 | Accuracy          | **96.2%**  | $$\frac{TP + TN}{TP + TN + FP + FN}$$  | How often a classification ML model is correct overall     |
@@ -182,7 +183,7 @@ SIOC rate *p* to 8.2%.
 
 When the sample error *e* is 0.01 at 95% confidence, it means that we
 are 95% confident that the population would have a true SIOC rate within
-the $8.2 \pm 1\%$ range. Given our trust in our existing SIOC data, we
+the 8.2 plus/minus 1% range. Given our trust in our existing SIOC data, we
 were fairly confident that the true SIOC rate was between 7.2% and 9.2%.
 
 Finally, we calculated the number of samples we should collect to
@@ -191,9 +192,9 @@ represent the population, according to our assumptions:
 $$n = \frac{N}{\left( \frac{e}{1.96} \right)^{2}\frac{N - 1}{p\left( 1 - p \right)} + 1} = \frac{695,697}{\left( \frac{0.01}{1.96} \right)^{2}\frac{695,697 - 1}{0.082\left( 1 - 0.082 \right)} + 1} \approx 2,880$$
 
 According to our calculations, by checking at least 2,880 randomly
-selected ASINs, following the assumptions that $8.2 \pm 1\%$ of the
+selected ASINs, following the assumptions that 8.2 plus/minus 1% of the
 sampled ASINs are SIOC, we would have 95% confidence that the
-population's SIOC rate is also in the $8.2 \pm 1\%$ range.
+population's SIOC rate is also in the 8.2 plus/minus 1% range.
 
 **Performing the Test**
 
