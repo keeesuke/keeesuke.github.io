@@ -137,18 +137,18 @@ The below confusion matrix for the test data highlights that the number
 of false positives and false negatives is relatively low compared to the
 number of true positives and true negatives, indicating the model\'s
 robustness.
-
-              Prediction result   Formula                                 description
-  ----------- ------------------- --------------------------------------- -------------------------------------------------------------------
-  Accuracy    **96.2%**           $$\frac{TP + TN}{TP + TN + FP + FN}$$   how often a classification ML model is correct overall
-  Precision   **93.5%**           $$\frac{\text{TP}}{TP + FP}$$           how often an ML model is correct when predicting the target class
-  Recall      **94.7%**           $$\frac{\text{TP}}{TP + FN}$$           whether an ML model can find all objects of the target class
+| Prediction result | Accuracy   | Formula                                | Description                                                |
+|-------------------|------------|----------------------------------------|------------------------------------------------------------|
+| Accuracy          | **96.2%**  | $$\frac{TP + TN}{TP + TN + FP + FN}$$  | How often a classification ML model is correct overall     |
+| Precision         | **93.5%**  | $$\frac{\text{TP}}{TP + FP}$$          | How often an ML model is correct when predicting the target class |
+| Recall            | **94.7%**  | $$\frac{\text{TP}}{TP + FN}$$          | Whether an ML model can find all objects of the target class |
 
 The Precision-Recall Cunfusion Matrix is shown as follows. The model
 shows high accuracy, precision, and recall, indicating strong overall
 performance.
 
-## Appendix: SIOC Blind Test Details {#appendix-sioc-blind-test-details .CPEX-Section}
+## Appendix:
+### SIOC Blind Test Details
 
 Our team performed a random sample test to capture foundational
 information about SIOC candidate ASINs.
@@ -158,13 +158,16 @@ information about SIOC candidate ASINs.
 Our team first identified the number of ASINs to capture via testing.
 The standard formula for calculating error is:
 
-$$\frac{e}{\text{sample\ error}} = \ t\sqrt{\frac{N - n}{N - 1} \times \frac{p\left( 1 - p \right)}{n}}$$
+$$
+\frac{e}{\text{sample\ error}} = \ t\sqrt{\frac{N - n}{N - 1} \times \frac{p\left( 1 - p \right)}{n}}
+$$
 
 Where:
-*N*: population size
-*p*: SIOC rate
-*n*: sample size
-*t*: error coefficient
+- *N*: population size
+- *p*: SIOC rate
+- *n*: sample size
+- *t*: error coefficient
+
 
 The population of ASINs we plan to sample was calculated at 695,697
 ASINs.

@@ -99,6 +99,8 @@ $$
 \text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}
 $$
 
+$\text{Air Ratio (\%)} = 100 \times \frac{\sum_{k = 1}^{500k} \left( \left[ \text{Fitted Box Volume} \right]_k - \left[ \text{Each Shipment Volume} \right]_k \right)}{\sum_{k = 1}^{500k} \left[ \text{Fitted Box Volume} \right]_k}$
+
 
 
 - Selection
