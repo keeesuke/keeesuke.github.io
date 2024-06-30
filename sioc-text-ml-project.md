@@ -142,11 +142,13 @@ of false positives and false negatives is relatively low compared to the
 number of true positives and true negatives, indicating the model\'s
 robustness.
 
-| Prediction result | Accuracy   | Formula                                | Description                                                |
-|-------------------|------------|----------------------------------------|------------------------------------------------------------|
-| Accuracy          | **96.2%**  | $$\frac{TP + TN}{TP + TN + FP + FN}$$  | How often a classification ML model is correct overall     |
-| Precision         | **93.5%**  | $$\frac{\text{TP}}{TP + FP}$$          | How often an ML model is correct when predicting the target class |
-| Recall            | **94.7%**  | $$\frac{\text{TP}}{TP + FN}$$          | Whether an ML model can find all objects of the target class |
+
+| Prediction result | Accuracy | Formula                              | Description                                                |
+|-------------------|----------|--------------------------------------|------------------------------------------------------------|
+| Accuracy          | **96.2%** | $\frac{TP + TN}{TP + TN + FP + FN}$  | How often a classification model is correct overall        |
+| Precision         | **93.5%** | $\frac{TP}{TP + FP}$                 | How often a model is correct when predicting the target class |
+| Recall            | **94.7%** | $\frac{TP}{TP + FN}$                 | Whether a model can find all objects of the target class    |
+
 
 The Precision-Recall Cunfusion Matrix is shown as follows. The model
 shows high accuracy, precision, and recall, indicating strong overall
