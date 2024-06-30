@@ -4,6 +4,17 @@ description: I'm enthusiastic about all AI fields related to the evolution of in
 show_downloads: false
 theme: jekyll-theme-minimal
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+mathjax:
+  path: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
+
+
 layout: page
 permalink: /box-consolidation
 

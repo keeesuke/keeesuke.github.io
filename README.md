@@ -53,6 +53,6 @@ Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping i
 Drum, Football, Swimming, Exploring Abroad
 
 Me playing the drum in the studio!
-![drum image](/assets/img/drum.PNG)
+![drum image](/assets/img/drum.PNG){ width=50% }
 
 

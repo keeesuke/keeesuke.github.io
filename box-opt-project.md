@@ -142,18 +142,6 @@ lineups.
 
 The results of the PPS verification are as follows.
 
-                                   Air Ratio (%)   Middle Mile Trans Cost Saving
-  -------------------------------- --------------- -------------------------------
-  Baseline (existing box lineup)   55.20%          \-
-  Consolidation                    **52.30%**      **-6.56** JPY/shipment
-
-The Air Ratio improved by 2.9% which is equivalent to a trans cost
-saving of 6.54 JPY per shipment.
-
-The Box lineup before and after consolidation changed as follows.
-Although the Air Ratio for some packages worsened, the overall air ratio
-for all 20 types of packages improved.
-
 |                                  | Air Ratio (%) | Middle Mile Trans Cost Saving |
 |----------------------------------|---------------|-------------------------------|
 | Baseline (existing box lineup)   | 55.20%        | \-                            |
