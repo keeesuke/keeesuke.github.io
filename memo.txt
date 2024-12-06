@@ -1,5 +1,10 @@
-How to convert word to markdown .md file:
+- How to convert word to markdown .md file:
 $ pandoc <word_file_name.docx> -t markdown-raw_html-native_divs-native_spans -o <markdown_file_name.md>
+above command is good at converting mathmatical formulas
 
 Or this way:
 $ pandoc -s 入力.docx --wrap=none --extract-media=media -t gfm -o 出力.md
+
+- For converting the table in Word to HTML table tag, use this website:
+    - https://products.aspose.app/words/conversion/word-to-md
+    - https://html-css-javascript.com/excel-table-html/

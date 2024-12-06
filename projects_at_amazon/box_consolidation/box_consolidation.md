@@ -17,7 +17,7 @@ For each new FC launch, new box sizes have been defined, leading to an increase 
 
 To address these challenges, I proposed implementing Box Consolidation, which involves the selection and redistribution of boxes across all FCs within the network. This consolidation aims to align box lineups, consolidate rarely used boxes, and halt the production of boxes which are rarely used. We select boxes used throughout the entire network, redistribute these box types to FCs, and optimize them to minimize air rates for each FC. In the figure below, each FC has different box lineup and does not unify with other FCs, which could produce boxes rarely shipped. The decreased number of boxes by consolidation could provide better fitted box and reduce the load for the supplier to manage many boxes.
 
-<img src="/assets/img/box_consolidation/box_consolidation.png" width="1000"/>
+<img src="/assets/img/box_consolidation/box_consolidation.png" width="800"/>
 
 ## Genetic Algorithm
 

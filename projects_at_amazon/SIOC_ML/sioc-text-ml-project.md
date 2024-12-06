@@ -2,7 +2,7 @@
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-## SIOC Machine Learning Prioritized Inventory Expansion Program Overview
+## SIOC Machine Learning Prioritized Inventory Expansion Overview
 Ship in Own Container (SIOC) is a shipping type that allows products to
 be shipped without any additional Amazon packaging. SIOC shipments
 reduce shipping supply costs and transportation costs through decreased
@@ -35,7 +35,7 @@ randomly selecting ASINs for inspection.
 The ML prioritization methodology is estimated to 537M JPY cost savings
 anually.
 
-## ASIN Prioritization Process -- Supervised Learning Model Development
+## ASIN Prioritization Process -- Supervised Learning Model
 
 I developed a SIOC Prediction Model that learns which qualities
 (dimensions, manufacturer information, category information, and textual
@@ -121,7 +121,7 @@ components:
 
 4.  ASIN prediction and export (perform the desired action and export)
 
-## The model performance {#the-model-performance .CPEX-Section}
+## The model performance
 
 The dataset extracted consists of 587,000 data points (SIOC: 187,000, non-SIOC: 400,000), split into 80% training data, 10% validation data, and 10% test data. The breakdown is as follows. The validation data was used for verification during training, and the test data was held out purely for evaluating the prediction results.
 
@@ -190,14 +190,12 @@ The Precision-Recall Confusion Matrix is shown as follows:
 When applied to the site testing, the ML model can identify SIOC items with 96.2% accuracy when predicting 100 ASINs as SIOC.
 
 
-### SIOC Blind Test Details
-
-Our team performed a random sample test to capture foundational
-information about SIOC candidate ASINs.
+## SIOC Blind Test Details
 
 **Sample Size Estimation**
 
-Our team first identified the number of ASINs to capture via testing.
+Our team performed a random sample test to capture foundational
+information about SIOC candidate ASINs. Our team first identified the number of ASINs to capture via testing. <br>
 The standard formula for calculating error is:
 
 $$
@@ -212,18 +210,11 @@ Where:
 
 
 The population of ASINs we plan to sample was calculated at 695,697
-ASINs.
-
-The SIOC rate is the quantity we intended to estimate using this
+ASINs. The SIOC rate is the quantity we intended to estimate using this
 process. We made some assumptions using data available to us and set the
-SIOC rate *p* to 8.2%.
-
-When the sample error *e* is 0.01 at 95% confidence, it means that we
-are 95% confident that the population would have a true SIOC rate within
+SIOC rate *p* to 8.2%. When the sample error *e* is 0.01 at 95% confidence, it means that we are 95% confident that the population would have a true SIOC rate within
 the 8.2 plus/minus 1% range. Given our trust in our existing SIOC data, we
-were fairly confident that the true SIOC rate was between 7.2% and 9.2%.
-
-Finally, we calculated the number of samples we should collect to
+were fairly confident that the true SIOC rate was between 7.2% and 9.2%. Finally, we calculated the number of samples we should collect to
 represent the population, according to our assumptions:
 
 $$n = \frac{N}{\left( \frac{e}{1.96} \right)^{2}\frac{N - 1}{p\left( 1 - p \right)} + 1} = \frac{695,697}{\left( \frac{0.01}{1.96} \right)^{2}\frac{695,697 - 1}{0.082\left( 1 - 0.082 \right)} + 1} \approx 2,880$$
