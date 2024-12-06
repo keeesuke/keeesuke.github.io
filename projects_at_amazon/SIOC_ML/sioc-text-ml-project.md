@@ -20,7 +20,9 @@ ensure that existing packaging meets standards designed to prevent
 damage during fulfillment and delivery. The below picture shows the
 example packaging meeting SIOC criteria described above.
 
-![SIOC image](/assets/img/SIOC.png)
+Figure 1. Ship in Own Container (SIOC) image
+
+<img src="/assets/img/SIOC_ML/SIOC.png" width="400"/>
 
 With limited resources for performing the SIOC teting program, my team
 needs to find the best way to identify which ASINs to test our of more
@@ -121,21 +123,12 @@ components:
 
 ## The model performance {#the-model-performance .CPEX-Section}
 
-The dataset extracted consists of 587k data points (SIOC: 187k,
-non-SIOC: 400k), split into 80% training data, 10% validation data, and
-10.% test data. The breakdown is as follows. The validation data was
-used for verification during training, and the test data was held out
-purely for evaluating the prediction results.
+The dataset extracted consists of 587,000 data points (SIOC: 187,000, non-SIOC: 400,000), split into 80% training data, 10% validation data, and 10% test data. The breakdown is as follows. The validation data was used for verification during training, and the test data was held out purely for evaluating the prediction results.
 
-The transition of Logloss and Precision-Recall-AUC scores for the
-validation data is shown in the graph below. The graph on the right
-displays the trend of the AUC score for both training and validation
-datasets. The AUC score increases and stabilizes, with the training AUC
-reaching almost perfect performance (close to 1.0) and the validation
-AUC also showing high performance, indicating that the model performs
-well in distinguishing between SIOC and non-SIOC.
+The transition of logloss and accuracy scores for the validation data is shown in the graph below. The graph on the right displays the trend of the accuracy score for both training and validation datasets. The accuracy score increases and stabilizes, with the training accuracy reaching almost perfect performance (close to 1.0) and the validation accuracy also showing high performance, indicating that the model performs well in distinguishing between SIOC and non-SIOC.
 
-![SIOC training accuracy graph](/assets/img/SIOC_training_accuracy_graph.png)
+
+![SIOC training accuracy graph](/assets/img/SIOC_ML/SIOC_training_accuracy_graph.png)
 
 The below confusion matrix for the test data highlights that the number
 of false positives and false negatives is relatively low compared to the
@@ -143,18 +136,60 @@ number of true positives and true negatives, indicating the model\'s
 robustness.
 
 
-| Prediction result | Accuracy | Formula                              | Description                                                |
+| Prediction result | Accuracy | Formula| Description|
 |-------------------|----------|--------------------------------------|------------------------------------------------------------|
 | Accuracy          | **96.2%** | $$\frac{TP + TN}{TP + TN + FP + FN}$$  | How often a classification model is correct overall        |
 | Precision         | **93.5%** | $$\frac{TP}{TP + FP}$$                 | How often a model is correct when predicting the target class |
 | Recall            | **94.7%** | $$\frac{TP}{TP + FN}$$                 | Whether a model can find all objects of the target class    |
 
+The Precision-Recall Confusion Matrix is shown as follows:  
 
-The Precision-Recall Cunfusion Matrix is shown as follows. The model
-shows high accuracy, precision, and recall, indicating strong overall
-performance.
+<style>
+  .centered-table th, .centered-table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>
 
-## Appendix:
+<table class="centered-table">
+	<tbody>
+		<tr>
+			<th colspan="2" rowspan="2">&nbsp;</th>
+			<th colspan="3">Real Label (Ground Truth)</th>
+		</tr>
+		<tr>
+			<td colspan="1">SIOC</td>
+			<td colspan="2">Non-SIOC</td>
+		</tr>
+		<tr>
+			<th colspan="1" rowspan="2">Predicted Label</th>
+			<td colspan="1">SIOC</td>
+			<td colspan="1">
+				<p>17,683</p>
+				<p>(True Positive)</p>
+			</td>
+			<td colspan="1">
+				<p>1,229</p>
+				<p>(False Positive)</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">Non-SIOC</td>
+			<td colspan="1">
+				<p>988</p>
+				<p>(False Negative)</p>
+			</td>
+			<td colspan="1">
+				<p>38,724</p>
+				<p>(True Negative)</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+When applied to the site testing, the ML model can identify SIOC items with 96.2% accuracy when predicting 100 ASINs as SIOC.
+
+
 ### SIOC Blind Test Details
 
 Our team performed a random sample test to capture foundational
@@ -166,7 +201,7 @@ Our team first identified the number of ASINs to capture via testing.
 The standard formula for calculating error is:
 
 $$
-\frac{e}{\text{sample\ error}} = \ t\sqrt{\frac{N - n}{N - 1} \times \frac{p\left( 1 - p \right)}{n}}
+{\text{sample error }} (e) = \ t\sqrt{\frac{N - n}{N - 1} \times \frac{p\left( 1 - p \right)}{n}}
 $$
 
 Where:
