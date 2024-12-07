@@ -22,18 +22,29 @@ body {
   color: #000000;
 }
 
-h2 {
-  padding: 1rem 1rem;
-  border-top: 3px solid #000;
-  background: #f4f4f4;
-  text-align: center;
+// h2 {
+//   padding: 1rem 1rem;
+//   border-top: 3px solid #000;
+//   background: #f4f4f4;
+//   text-align: center;
+//   font-size: 28px;
+// }
+
+h2{
+  padding: 0.5em 1em;
+  background-color: #e1eef5;
+  box-shadow: 5px -5px #4c9ac0;
+  position: relative;
   font-size: 28px;
+  text-align: center;
 }
+
 h3 {
   text-align: center;
   font-size: 20px;
   color: #000000;
 }
+
 h4 {
   text-align: center;
   font-size: 20px;

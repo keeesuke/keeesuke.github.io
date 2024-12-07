@@ -2,7 +2,7 @@
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-## **VDB Optimization Project Background**
+## **Box Size Optimization Project Background**
 
 As part of Amazon's Climate Pledge initiative, our team is aiming to contribute to the reduction of CO2 emissions and plastic usage, as well as cost savings, by optimizing packaging size. To promote this initiative, our team has replaced a portion of the traditional cardboard box lineup with VDB (Variable Depth Box) to reduce the box volume upon delivery. VDB is a cardboard box that can adjust the height by folding, depending on the size of the packaged product. VDB can effectively create two different box sizes (as varying in height) with a single box, allowing for minimal air space within the box (as shown in figure 1).  
   
@@ -1080,5 +1080,5 @@ Followings are the each dimension of the box lineup and the result of fitting si
 
 ## **Reference**
 
-Simulated Annealing - <https://www.researchgate.net/figure/Principle-of-the-simulated-annealing-algorithm_fig5_360434054>
+- Simulated Annealing concept source: <https://www.researchgate.net/figure/Principle-of-the-simulated-annealing-algorithm_fig5_360434054>
 

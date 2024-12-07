@@ -1,15 +1,17 @@
 ## Education
 ### Yokohama National University
 <p style="text-align:center">
-    Apr 2014 ‒ Mar 2019 <br>
-    B.E., Material Science and Mechanical Engineering
+    B.E., Material Science and Mechanical Engineering <br>
+    Apr 2014 ‒ Mar 2019
 </p>
+Studied the structure and properties of materials through courses such as Mechanics of Materials, Crystallographic Strength, and Metallography. For my undergraduate research, I analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning.
 
 ### University of Edinburgh
 <p style="text-align:center">
-    Sep 2016 ‒ May 2017 <br>
-    Full Year Courses for Visiting Students, School of Informatics
+    Full Year Courses for Visiting Students, School of Informatics <br>
+    Sep 2016 ‒ May 2017
 </p>
+Undertook a personal study abroad program in my third year, where I learned the fundamentals of Data Science through courses such as Computation and Logic, Functional Programming, and Data and Analysis. Outside of academics, I participated in business competitions and joined a local soccer team.
 
 ## Work Experience
 ### Amazon Japan
@@ -40,9 +42,8 @@
 #### Datumix Corp.
 
 <p style="text-align:center">
-    <b>Full time internship</b> <br>
+    <b>Full time internship @ Tokyo Japan/California U.S.</b> <br>
     Sep 2018 - Mar 2019 <br>
-    Tokyo Japan/California U.S.
 </p>
 - Simulated the unmanned Multi-Shuttle System for warehouse loading and enhanced the efficiency of shipping order for multi-order items by applying reinforcement learning.
 
@@ -74,33 +75,38 @@ One of our team goals is to contribute to sustainability by reducing CO2 emissio
 <hr>
 
 ### Monitoring System Deployent
-<!-- ##### [Full Project Description](/projects_at_amazon/monitoring_system/monitoring_system) -->
+##### [Full Project Description](/projects_at_amazon/monitoring_system/monitoring_system)
 
 Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfillment Center (FC) equipment. It provides real-time and historical data on operational status, productivity, and errors, extracted from PLCs controlling warehouse conveyors. The system minimizes delays in identifying issues, preventing operational process halts and delivery risks by alerting on-site associates to abnormalities. I, as a program manager, led the Seiren project end-to-end from system design to deployment and subsequent maintenance, and successfully deployed the system across 6 new FCs over the course of two years.
+
+<img src="/assets/img/monitoring_system/UI_sample.png" width="500"/>
+
 <hr>
 
 ### Similar Product Recommendation Tool
-<!-- ##### [Full Project Description](/projects_at_amazon/Word_Similarity_Tool/Word_Similarity_Tool) -->
+##### [Full Project Description](/projects_at_amazon/Word_Similarity_Tool/Word_Similarity_Tool)
 
 The Similar Product Recommendation Tool is designed to streamline the identification of incorrectly annotated products (e.g., items marked as liquid/fragile but not meeting such criteria). It leverages TF-IDF and Cosine Similarity to accurately match input keywords with product titles or descriptions, reducing manual inspection efforts. The tool processes keyword searches via an AWS-backed architecture, providing results through a Python-based Flask server. I designed and developed the User Interface and the backend system architecture for our team to utilize for their internal use case. Potential broader applications include identifying SIOC-eligible products to cut packaging costs and mitigating risks for damaged items by analyzing similarities.
 
+<img src="/assets/img/Word_Similarity_Tool/System_architecture.png" width="600"/>
+
 ## Skills
 
-### Programming:
+<font size="4">Programming:</font>
 Python (numpy, pandas, matplotlib, scikit-learn, Tensorflow, PyTorch), Linux, HTML, JavaScript, C++, Java, Haskell
 
-### Tools & Technologies:
+<font size="4">Tools & Frameworks:</font>
 Machine Learning, LLM, Git, AWS, QuickSight, ETLM, MySQL, Django, Flask, Docker, MATLAB, PLC Ladder
 
-### Languages:
+<font size="4">Languages:</font>
 Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
 
 ## Extracurricular Activities
-#### Programming Competition:
+<font size="4">Programming Competition:</font>
 - Joined 6 competitions on [Signate](https://signate.jp/users/50394/), Japan's largest AI platform, ranked in a top 1% position among 180k
 - Attained ranking A with a highest position of top 8% on [Paiza](https://paiza.jp/), Japan’s programming platform
 - Solved 200+ problems on [Leetcode](https://leetcode.com/keyy1019/)
-#### Volunteer Work:
+<font size="4">Volunteer Work:</font>
 - Engaged in volunteer work for decontamination efforts in Fukushima following the Great East Japan Earthquake in 2011.
 - Teaching math to school children in Ghana through Volunteer4Africa program on May 2017. <br>
 
