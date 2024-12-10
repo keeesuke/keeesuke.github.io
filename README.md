@@ -84,7 +84,7 @@ Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfil
 <hr>
 
 ### Similar Product Recommendation Tool
-##### [Full Project Description](/projects_at_amazon/Word_Similarity_Tool/Word_Similarity_Tool)
+##### [Full Project Description](/projects_at_amazon/Word_Similarity_Tool/word_similarity_tool)
 
 The Similar Product Recommendation Tool is designed to streamline the identification of incorrectly annotated products (e.g., items marked as liquid/fragile but not meeting such criteria). It leverages TF-IDF and Cosine Similarity to accurately match input keywords with product titles or descriptions, reducing manual inspection efforts. The tool processes keyword searches via an AWS-backed architecture, providing results through a Python-based Flask server. I designed and developed the User Interface and the backend system architecture for our team to utilize for their internal use case. Potential broader applications include identifying SIOC-eligible products to cut packaging costs and mitigating risks for damaged items by analyzing similarities.
 
