@@ -93,7 +93,7 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 ## Skills
 
 <font size="4">Programming:</font>
-Python (numpy, pandas, matplotlib, scikit-learn, Tensorflow, PyTorch), Linux, HTML, JavaScript, C++, Java, Haskell
+ROS/ROS2, Python (numpy, pandas, matplotlib, scikit-learn, Tensorflow, PyTorch), Linux, C++, HTML, JavaScript
 
 <font size="4">Tools & Frameworks:</font>
 Machine Learning, LLM, Git, AWS, QuickSight, ETLM, MySQL, Django, Flask, Docker, MATLAB, PLC Ladder
