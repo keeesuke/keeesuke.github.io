@@ -1,19 +1,59 @@
 ## Education
+
+### University of Illinois, Urbana-Champaign 
+<p style="text-align:center">
+    Master of Engineering in Autonomy & Robotics <br>
+    August 2025 ‒ (Exp.) Dec 2026
+</p>
+
+Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
+
+Relative courses:
+- Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
+
+<p align="center">
+  <img src="/assets/img/UIUC/safe_autonomy.png" width="200" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/safe_autonomy2.gif" width="200" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/ur3.png" width="200" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/cv_inlier.png" width="200" style="background-color:white; padding:3px;"/>
+</p>
+
 ### Yokohama National University
 <p style="text-align:center">
     B.E., Material Science and Mechanical Engineering <br>
     Apr 2014 ‒ Mar 2019
 </p>
-Studied the structure and properties of materials through courses such as Mechanics of Materials, Crystallographic Strength, and Metallography. For my undergraduate research, I analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning.
+
+A program focusing on structure and properties of materials.
+
+Relative courses:
+- Mechanics of Materials, Crystallographic Strength, Metallography
+- Undergraduate research: Analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning
 
 ### University of Edinburgh
 <p style="text-align:center">
     Full Year Courses for Visiting Students, School of Informatics <br>
     Sep 2016 ‒ May 2017
 </p>
-Undertook a personal study abroad program in my third year, where I learned the fundamentals of Data Science through courses such as Computation and Logic, Functional Programming, and Data and Analysis. Outside of academics, I participated in business competitions and joined a local soccer team.
+
+A year-long study abroad program, focused on the fundamentals of data science.
+
+Relative courses:
+- Computation and Logic, Functional Programming, Data and Analysis
 
 ## Work Experience
+
+### Preferred Robotics
+<p style="text-align:center">
+    <b>Robotics Software Engineer @ software team</b> <br>
+    May 2025 - Aug 2025
+</p>
+
+- Led software development for an in-house mobile inspection robot operating on rail tracks, focusing on 3D modeling using Gaussian Splatting and real-time camera control in C++.
+- Developed collision prediction algorithms for dynamic obstacles to enhance path planning and autonomous navigation.
+
+<hr>
+
 ### Amazon Japan
 
 <p style="text-align:center">
@@ -96,7 +136,7 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 ROS/ROS2, Python (numpy, pandas, matplotlib, scikit-learn, Tensorflow, PyTorch), Linux, C++, HTML, JavaScript
 
 <font size="4">Tools & Frameworks:</font>
-Machine Learning, LLM, Git, AWS, QuickSight, ETLM, MySQL, Django, Flask, Docker, MATLAB, PLC Ladder
+Computer Vision, Machine Learning, LLM, Git, Docker, AWS, MySQL, Django, Flask, MATLAB, PLC Ladder
 
 <font size="4">Languages:</font>
 Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
