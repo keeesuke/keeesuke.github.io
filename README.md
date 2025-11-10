@@ -6,10 +6,8 @@
     August 2025 ‒ (Exp.) Dec 2026
 </p>
 
-Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
-
-Relative courses:
-- Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
+- Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
+- <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
 
 <p align="center">
   <img src="/assets/img/UIUC/safe_autonomy.png" width="200" style="background-color:white; padding:3px;"/>
@@ -24,11 +22,9 @@ Relative courses:
     Apr 2014 ‒ Mar 2019
 </p>
 
-A program focusing on structure and properties of materials.
-
-Relative courses:
-- Mechanics of Materials, Crystallographic Strength, Metallography
+- A program focusing on structure and properties of materials
 - Undergraduate research: Analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning
+- <b>Relative courses</b>: Mechanics of Materials, Crystallographic Strength, Metallography
 
 ### University of Edinburgh
 <p style="text-align:center">
@@ -36,10 +32,8 @@ Relative courses:
     Sep 2016 ‒ May 2017
 </p>
 
-A year-long study abroad program, focused on the fundamentals of data science.
-
-Relative courses:
-- Computation and Logic, Functional Programming, Data and Analysis
+- A year-long study abroad program, focused on the fundamentals of data science.
+- <b>Relative courses</b>: Computation and Logic, Functional Programming, Data and Analysis
 
 ## Work Experience
 
