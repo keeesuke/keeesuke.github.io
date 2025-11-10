@@ -10,10 +10,10 @@
 - <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
 
 <p align="center">
-  <img src="/assets/img/UIUC/safe_autonomy.png" width="200" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/safe_autonomy2.gif" width="200" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/ur3.png" width="200" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/cv_inlier.png" width="200" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/safe_autonomy.png" width="140" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/safe_autonomy2.gif" width="140" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/ur3.png" width="160" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/cv_inlier.png" width="180" style="background-color:white; padding:3px;"/>
 </p>
 
 ### Yokohama National University
