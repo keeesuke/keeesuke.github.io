@@ -16,6 +16,8 @@
   <img src="/assets/img/UIUC/cv_inlier.png" width="180" style="background-color:white; padding:3px;"/>
 </p>
 
+<hr>
+
 ### Yokohama National University
 <p style="text-align:center">
     B.E., Material Science and Mechanical Engineering <br>
@@ -25,6 +27,8 @@
 - A program focusing on structure and properties of materials
 - Undergraduate research: Analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning
 - <b>Relative courses</b>: Mechanics of Materials, Crystallographic Strength, Metallography
+
+<hr>
 
 ### University of Edinburgh
 <p style="text-align:center">
@@ -82,6 +86,24 @@
 - Simulated the unmanned Multi-Shuttle System for warehouse loading and enhanced the efficiency of shipping order for multi-order items by applying reinforcement learning.
 
 ## Projects
+
+### Risk-Aware Autonomous Driving with Pedestrian Intent Prediction
+
+ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehicle, designed to improve pedestrian safety by adapting vehicle behavior using time-to-collision (TTC) risk estimation rather than distance-only braking. The system integrates LiDAR- and RGB-D–based pedestrian perception, weighted sensor fusion with approximate time synchronization, pedestrian motion prediction, and a high-level decision state machine that gates safety-aware control, enabling earlier and more robust speed adaptation under uncertainty and intermittent detections.
+
+<img src="/assets/img/UIUC/principal_autonomy/GEMe4.gif" width="600"/>
+
+<hr>
+
+###  Open-World Semantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
+
+This project presents an open-vocabulary, zero-shot 6D object pose estimation framework for robotic manipulation that enables language-guided target selection and dynamic switching in unstructured environments. Built on FoundationPose (CVPR 2024), the pipeline integrates SAM-3 for precise segmentation and a lightweight vision-language model to support text-driven object specification, while removing reliance on pre-registered CAD models through on-the-fly geometric proxy generation, enabling robust 6D pose tracking even under significant occlusion.
+
+<img src="/assets/img/UIUC/computer_vision/6D_pose_estimation.gif" width="600"/>
+<p style="font-size:10px"><br>
+reference: nvlabs.github.io/FoundationPose</p>
+
+<hr>
 
 ### Box Consolidation with Genetic Algorithm
 ##### [Full Project Description](/projects_at_amazon/box_consolidation/box_consolidation)
