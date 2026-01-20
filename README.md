@@ -1,105 +1,35 @@
-## Education
-
-### University of Illinois, Urbana-Champaign 
-<p style="text-align:center">
-    Master of Engineering in Autonomy & Robotics <br>
-    August 2025 ‒ (Exp.) Dec 2026
-</p>
-
-- Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
-- <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
-
-<p align="center">
-  <img src="/assets/img/UIUC/safe_autonomy.png" width="140" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/safe_autonomy2.gif" width="140" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/ur3.png" width="160" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/cv_inlier.png" width="180" style="background-color:white; padding:3px;"/>
-</p>
-
-<hr>
-
-### Yokohama National University
-<p style="text-align:center">
-    B.E., Material Science and Mechanical Engineering <br>
-    Apr 2014 ‒ Mar 2019
-</p>
-
-- A program focusing on structure and properties of materials
-- Undergraduate research: Analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning
-- <b>Relative courses</b>: Mechanics of Materials, Crystallographic Strength, Metallography
-
-<hr>
-
-### University of Edinburgh
-<p style="text-align:center">
-    Full Year Courses for Visiting Students, School of Informatics <br>
-    Sep 2016 ‒ May 2017
-</p>
-
-- A year-long study abroad program, focused on the fundamentals of data science.
-- <b>Relative courses</b>: Computation and Logic, Functional Programming, Data and Analysis
-
-## Work Experience
-
-### Preferred Robotics
-<p style="text-align:center">
-    <b>Robotics Software Engineer @ software team</b> <br>
-    May 2025 - Aug 2025
-</p>
-
-- Led software development for an in-house mobile inspection robot operating on rail tracks, focusing on 3D modeling using Gaussian Splatting and real-time camera control in C++.
-- Developed collision prediction algorithms for dynamic obstacles to enhance path planning and autonomous navigation.
-
-<hr>
-
-### Amazon Japan
-
-<p style="text-align:center">
-    <b>Sr.Engineer @ Customer Packaging Experience team</b> <br>
-    Nov 2019 - Feb 2021, Dec 2023 - Nov 2024
-</p>
-
-- Led the beta software development for a robotic arm project automating product handling for a packing system, achieving 166 UPH using deep learning-based semantic segmentation.
-- Developed Multi-Modal machine learning classification model using text and image data that identifies shipping-ready products without using additional packaging from over 10 million items, leveraging Inception and AutoGluon-Tabular ML model.
-- Contributed to a box consolidation project that reduced Amazon warehouse’s box cube by 3.2%, saving $770k annually using a genetic algorithm for optimal box selection.
-- Optimized variable box dimensions using Simulated Annealing, analyzing 500k shipment data to determine the best 20 box sizes.
-- Developed a real-time web-based operational tool to track order picking progress using Python Django and JavaScript.
-- Created a recommendation tool that suggests similar products from Amazon inventory in response to the user input using TF-IDF and cosine similarity, deployed on API Gateway, Lambda, EC2, and S3.
-
-<p style="text-align:center">
-    <b>System Engineer @ Control Engineering team</b> <br>
-    Apr 2019 - Oct 2019, Mar 2021 - Nov 2023
-</p>
-
-- Led the implementation of a monitoring system used by over 500+ users nationwide, overseeing the launch of 6 warehouses and managing all aspects from system design to development, testing, deployment, and maintenance.
-- Led deploying a warehouse monitoring system across 6 warehouses using Ignition SCADA (Supervisory Control And Data Acquisition), supporting over 500 users with real-time equipment status collected from PLC (Programmable Logic Controller).
-- Developed a tool for warehouse operations using Python, empowering on-site team to monitor the remaining unpicked items for each truck shipment time, reduced $400K in unnecessary server expenses.
-
-<hr>
-
-#### Datumix Corp.
-
-<p style="text-align:center">
-    <b>Full time internship @ Tokyo Japan/California U.S.</b> <br>
-    Sep 2018 - Mar 2019 <br>
-</p>
-- Simulated the unmanned Multi-Shuttle System for warehouse loading and enhanced the efficiency of shipping order for multi-order items by applying reinforcement learning.
 
 ## Projects
 
 ### Risk-Aware Autonomous Driving with Pedestrian Intent Prediction
 
+##### [Full Project Description (PDF)](/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf)
+
+<embed 
+  src="/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf"
+  type="application/pdf"
+  width="100%"
+  height="800px"
+/>
+
+<iframe
+  src="/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf"
+  width="100%"
+  height="800px"
+  style="border: none;"
+></iframe>
+
 ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehicle, designed to improve pedestrian safety by adapting vehicle behavior using time-to-collision (TTC) risk estimation rather than distance-only braking. The system integrates LiDAR- and RGB-D–based pedestrian perception, weighted sensor fusion with approximate time synchronization, pedestrian motion prediction, and a high-level decision state machine that gates safety-aware control, enabling earlier and more robust speed adaptation under uncertainty and intermittent detections.
 
-<img src="/assets/img/UIUC/principal_autonomy/GEMe4.gif" width="600"/>
+<img src="/assets/img/UIUC/principal_autonomy/GEMe4.gif" width="680"/>
 
 <hr>
 
-###  Open-World Semantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
+### Open-WSemantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
 
 This project presents an open-vocabulary, zero-shot 6D object pose estimation framework for robotic manipulation that enables language-guided target selection and dynamic switching in unstructured environments. Built on FoundationPose (CVPR 2024), the pipeline integrates SAM-3 for precise segmentation and a lightweight vision-language model to support text-driven object specification, while removing reliance on pre-registered CAD models through on-the-fly geometric proxy generation, enabling robust 6D pose tracking even under significant occlusion.
 
-<img src="/assets/img/UIUC/computer_vision/6D_pose_estimation.gif" width="600"/>
+<img src="/assets/img/UIUC/computer_vision/6D_pose_estimation.gif" width="450"/>
 <p style="font-size:10px"><br>
 reference: nvlabs.github.io/FoundationPose</p>
 
@@ -146,29 +76,97 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 
 <img src="/assets/img/Word_Similarity_Tool/System_architecture.png" width="600"/>
 
+
+## Education
+
+### University of Illinois, Urbana-Champaign 
+<p style="text-align:center">
+    Master of Engineering in Autonomy & Robotics <br>
+    August 2025 ‒ (Exp.) Dec 2026
+</p>
+
+- Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
+- <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
+
+<p align="center">
+  <img src="/assets/img/UIUC/safe_autonomy.png" width="140" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/safe_autonomy2.gif" width="140" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/ur3.png" width="160" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/cv_inlier.png" width="180" style="background-color:white; padding:3px;"/>
+</p>
+
+<hr>
+
+### Yokohama National University
+<p style="text-align:center">
+    B.E., Material Science and Mechanical Engineering <br>
+    Apr 2014 ‒ Mar 2019
+</p>
+
+- A program focusing on structure and properties of materials
+- Undergraduate research: Analyzed contributors to the stability of retained austenite in low alloy TRIP (transformation-induced plasticity) steel using machine learning
+- <b>Relative courses</b>: Mechanics of Materials, Crystallographic Strength, Metallography
+
+#### Publications
+- Norimitsu Koga, Takayuki Yamashita, Keisuke Ogawa, Osamu Umezawa: [Statistical Analysis of Influential Factors on the Stability of Retained Austenite in Low Alloy TRIP (transformation-induced plasticity) Steel](https://www.jstage.jst.go.jp/article/matertrans/63/5/63_MT-M2021239/_article/-char/en). Materials Transactions, 2022 Volume 63 Issue 5 Pages 693-702; DOI: 10.2320/matertrans.MT-M2021239
+
+
+<hr>
+
+### University of Edinburgh
+<p style="text-align:center">
+    Full Year Courses for Visiting Students, School of Informatics <br>
+    Sep 2016 ‒ May 2017
+</p>
+
+- A year-long study abroad program, focused on the fundamentals of data science.
+- <b>Relative courses</b>: Computation and Logic, Functional Programming, Data and Analysis
+
+## Work Experience
+
+### Preferred Robotics
+<p style="text-align:center">
+    <b>Robotics Software Engineer @ software team</b> <br>
+    May 2025 - Aug 2025
+</p>
+Worked on the development of an in-house mobile inspection robot operating along railway environments, with a focus on perception-driven autonomy. Led the development of 3D environment modeling using Gaussian Splatting and implemented real-time camera control pipelines in C++. In parallel, designed collision prediction logic for dynamic obstacles to improve autonomous navigation and path planning in safety-critical infrastructure settings.
+
+<hr>
+
+### Amazon Japan
+
+<p style="text-align:center">
+    <b>Sr.Engineer @ Customer Packaging Experience team</b> <br>
+    Nov 2019 - Feb 2021, Dec 2023 - Nov 2024
+</p>
+Worked on large-scale warehouse automation and logistics optimization across robotics, machine learning, and control systems. Contributed to robotic arm–based packing automation using deep learning–based semantic segmentation, as well as multimodal ML systems combining text, image, and physical attributes to identify shipping-ready products at scale. Led optimization initiatives including box consolidation via genetic algorithms and variable-depth box sizing using simulated annealing, delivering measurable cost and sustainability improvements.
+
+<p style="text-align:center">
+    <b>System Engineer @ Control Engineering team</b> <br>
+    Apr 2019 - Oct 2019, Mar 2021 - Nov 2023
+</p>
+Designed and deployed warehouse monitoring and operational tools integrating PLC data, real-time dashboards, and cloud-based infrastructure to support nationwide fulfillment operations.
+
+<hr>
+
+#### Datumix Corp.
+
+<p style="text-align:center">
+    <b>Full time internship @ Tokyo Japan/California U.S.</b> <br>
+    Sep 2018 - Mar 2019 <br>
+</p>
+Simulated the unmanned Multi-Shuttle System for warehouse loading and enhanced the efficiency of shipping order for multi-order items by applying reinforcement learning.
+
 ## Skills
 
 <font size="4">Programming:</font>
-ROS/ROS2, Python (numpy, pandas, matplotlib, scikit-learn, Tensorflow, PyTorch), Linux, C++, HTML, JavaScript
+ROS/ROS2, Python (scikit-learn, Tensorflow, PyTorch, Django, OpenCV), Linux, C++ (multithread), HTML, JavaScript
 
 <font size="4">Tools & Frameworks:</font>
-Computer Vision, Machine Learning, LLM, Git, Docker, AWS, MySQL, Django, Flask, MATLAB, PLC Ladder
+Git, Docker, CUDA GPU, MySQL, Tableau, AWS (SageMaker, EC2, S3, API Gateway, Lambda), VLM, SCADA
 
-<font size="4">Languages:</font>
-Japanese; native, English; business level (TOEFL 97/120, IELTS overall 7.5)
-
-## Extracurricular Activities
-<font size="4">Programming Competition:</font>
-- Joined 6 competitions on [Signate](https://signate.jp/users/50394/), Japan's largest AI platform, ranked in a top 1% position among 180k
-- Attained ranking A with a highest position of top 8% on [Paiza](https://paiza.jp/), Japan’s programming platform
-- Solved 200+ problems on [Leetcode](https://leetcode.com/keyy1019/)
-<font size="4">Volunteer Work:</font>
-- Engaged in volunteer work for decontamination efforts in Fukushima following the Great East Japan Earthquake in 2011.
-- Teaching math to school children in Ghana through Volunteer4Africa program on May 2017. <br>
-
-
-## Publications
-- Norimitsu Koga, Takayuki Yamashita, Keisuke Ogawa, Osamu Umezawa: [Statistical Analysis of Influential Factors on the Stability of Retained Austenite in Low Alloy TRIP (transformation-induced plasticity) Steel](https://www.jstage.jst.go.jp/article/matertrans/63/5/63_MT-M2021239/_article/-char/en). Materials Transactions, 2022 Volume 63 Issue 5 Pages 693-702; DOI: 10.2320/matertrans.MT-M2021239
+<font size="4">Robotics:</font>
+PCL, SIFT, MPC/PID control, Gazebo, RVIZ2, Motion Planning (A*, RRT), SLAM (Visual Odometry, EKF, Particle Filter)
 
 ## Hobbies
 - Drum, Football, Work-out, Swimming, Exploring Abroad
