@@ -3,21 +3,7 @@
 
 ### Risk-Aware Autonomous Driving with Pedestrian Intent Prediction
 
-##### [Full Project Description (PDF)](/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf)
-
-<embed 
-  src="/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf"
-  type="application/pdf"
-  width="100%"
-  height="800px"
-/>
-
-<iframe
-  src="/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf"
-  width="100%"
-  height="800px"
-  style="border: none;"
-></iframe>
+##### [Full Project Description](/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf)
 
 ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehicle, designed to improve pedestrian safety by adapting vehicle behavior using time-to-collision (TTC) risk estimation rather than distance-only braking. The system integrates LiDAR- and RGB-D–based pedestrian perception, weighted sensor fusion with approximate time synchronization, pedestrian motion prediction, and a high-level decision state machine that gates safety-aware control, enabling earlier and more robust speed adaptation under uncertainty and intermittent detections.
 
@@ -26,6 +12,8 @@ ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehi
 <hr>
 
 ### Open-WSemantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
+
+##### [Full Project Description](/assets/img/UIUC/computer_vision/6D_Pose_Estimation_Project.pdf)
 
 This project presents an open-vocabulary, zero-shot 6D object pose estimation framework for robotic manipulation that enables language-guided target selection and dynamic switching in unstructured environments. Built on FoundationPose (CVPR 2024), the pipeline integrates SAM-3 for precise segmentation and a lightweight vision-language model to support text-driven object specification, while removing reliance on pre-registered CAD models through on-the-fly geometric proxy generation, enabling robust 6D pose tracking even under significant occlusion.
 
@@ -76,6 +64,7 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 
 <img src="/assets/img/Word_Similarity_Tool/System_architecture.png" width="600"/>
 
+<br>
 
 ## Education
 
@@ -122,6 +111,8 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 - A year-long study abroad program, focused on the fundamentals of data science.
 - <b>Relative courses</b>: Computation and Logic, Functional Programming, Data and Analysis
 
+<br>
+
 ## Work Experience
 
 ### Preferred Robotics
@@ -157,16 +148,7 @@ Designed and deployed warehouse monitoring and operational tools integrating PLC
 </p>
 Simulated the unmanned Multi-Shuttle System for warehouse loading and enhanced the efficiency of shipping order for multi-order items by applying reinforcement learning.
 
-## Skills
-
-<font size="4">Programming:</font>
-ROS/ROS2, Python (scikit-learn, Tensorflow, PyTorch, Django, OpenCV), Linux, C++ (multithread), HTML, JavaScript
-
-<font size="4">Tools & Frameworks:</font>
-Git, Docker, CUDA GPU, MySQL, Tableau, AWS (SageMaker, EC2, S3, API Gateway, Lambda), VLM, SCADA
-
-<font size="4">Robotics:</font>
-PCL, SIFT, MPC/PID control, Gazebo, RVIZ2, Motion Planning (A*, RRT), SLAM (Visual Odometry, EKF, Particle Filter)
+<br>
 
 ## Hobbies
 - Drum, Football, Work-out, Swimming, Exploring Abroad
