@@ -39,7 +39,7 @@ Implemented ROS nodes to control the UR3 via topic-based communication and execu
 
 <hr>
 
-### Box Consolidation with Genetic Algorithm
+### Box Sorting with Genetic Algorithm
 ##### [Full Project Description](/projects_at_amazon/box_consolidation/box_consolidation)
 
 Box Consolidation Project aimed at reducing unnecessary box types used in Amazon Fulfillment Centers (FC) to improve shipment efficiency. There were 400 box types managed across FC network, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation will align box suites by FC type, consolidate boxes, halt less-used box production, and optimize air ratio; it is initially being implemented across all FCs in Japan where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. I employed a Genetic Algorithm to swiftly calculate optimal box lineups specialized for each FC type out of the vast number of possible box combinations.
@@ -48,16 +48,16 @@ Box Consolidation Project aimed at reducing unnecessary box types used in Amazon
 
 <hr>
 
-### SIOC ML Prioritized Inventory Expansion Program
+### Identify Ship-Ready Products with Machine Learning
 ##### [Full Project Description](/projects_at_amazon/SIOC_ML/sioc-text-ml-project)
 
-Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging. To increase SIOC shipments, our team provides a prioritized list of products to inspect if they meet SIOC standards. I developed a machine learning model to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data, using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over 500M JPY in cost savings anually.
+Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging, hence reducing supply costs and transportation costs through decreased shipped volume. I developed a machine learning model to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data, using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over $600K in cost savings anually.
 
 <img src="/assets/img/SIOC_ML/SIOC.png" width="300"/>
 
 <hr>
 
-### Box Dimensional Size Optimization with Simulated Annealing
+### Box 3-Dimensional Size Optimization
 ##### [Full Project Description](/projects_at_amazon/box_opt_VDB/box_opt_VDB)
 
 One of our team goals is to contribute to sustainability by reducing CO2 emissions and plastic usage through packaging optimization. Variable Depth Box (VDB) is a packaging solution designed to adjust its height based on the size of the product, reducing air space and minimizing packaging material waste. I developed a tool to optimize the three-dimensions of VDB sizes with Simulated Annealing, one of optimization algorithm, and demonstrated a 2.16% improvement in the air ratio, based on the annual shipment record. While the simulated annealing proved effective in finding optimal box size lineup, there are some rooms for further algorithm refinement such as slow convergence and sensitivity to initial parameters.
@@ -65,7 +65,7 @@ One of our team goals is to contribute to sustainability by reducing CO2 emissio
 <img src="/assets/img/box_opt_VDB/opt_curve.png" width="500"/>
 <hr>
 
-### Monitoring System Deployent
+### Monitoring System Deployment
 ##### [Full Project Description](/projects_at_amazon/monitoring_system/monitoring_system)
 
 Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfillment Center (FC) equipment. It provides real-time and historical data on operational status, productivity, and errors, extracted from PLCs controlling warehouse conveyors. The system minimizes delays in identifying issues, preventing operational process halts and delivery risks by alerting on-site associates to abnormalities. I, as a program manager, led the Seiren project end-to-end from system design to deployment and subsequent maintenance, and successfully deployed the system across 6 new FCs over the course of two years.
