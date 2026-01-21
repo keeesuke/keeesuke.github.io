@@ -11,7 +11,7 @@ ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehi
 
 <hr>
 
-### Open-WSemantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
+### Open-Semantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
 
 ##### [Full Project Description (PDF)](/assets/img/UIUC/computer_vision/6D_Pose_Estimation_Project.pdf)
 
@@ -39,7 +39,7 @@ Implemented ROS nodes to control the UR3 via topic-based communication and execu
 
 <hr>
 
-### Box Sorting with Genetic Algorithm
+### Box Combinatorial Optimization with Genetic Algorithm
 ##### [Full Project Description](/projects_at_amazon/box_consolidation/box_consolidation)
 
 Box Consolidation Project aimed at reducing unnecessary box types used in Amazon Fulfillment Centers (FC) to improve shipment efficiency. There were 400 box types managed across FC network, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation will align box suites by FC type, consolidate boxes, halt less-used box production, and optimize air ratio; it is initially being implemented across all FCs in Japan where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. I employed a Genetic Algorithm to swiftly calculate optimal box lineups specialized for each FC type out of the vast number of possible box combinations.
@@ -57,7 +57,7 @@ Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping i
 
 <hr>
 
-### Box 3-Dimensional Size Optimization
+### 3-Dimensional Box Size Optimization
 ##### [Full Project Description](/projects_at_amazon/box_opt_VDB/box_opt_VDB)
 
 One of our team goals is to contribute to sustainability by reducing CO2 emissions and plastic usage through packaging optimization. Variable Depth Box (VDB) is a packaging solution designed to adjust its height based on the size of the product, reducing air space and minimizing packaging material waste. I developed a tool to optimize the three-dimensions of VDB sizes with Simulated Annealing, one of optimization algorithm, and demonstrated a 2.16% improvement in the air ratio, based on the annual shipment record. While the simulated annealing proved effective in finding optimal box size lineup, there are some rooms for further algorithm refinement such as slow convergence and sensitivity to initial parameters.
