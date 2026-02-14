@@ -7,7 +7,7 @@
 
 ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehicle, designed to improve pedestrian safety by adapting vehicle behavior using time-to-collision risk estimation. The system integrates LiDAR- and RGB-D–based pedestrian perception, motion prediction, and a high-level decision state machine that gates safety-aware control, enabling speed adaptation under uncertainty.
 
-<img src="/assets/img/UIUC/principal_autonomy/GEMe4.gif" width="500"/>
+<p align="center"><img src="/assets/img/UIUC/principal_autonomy/GEMe4.gif" width="500"/></p>
 
 <hr>
 
@@ -17,7 +17,7 @@ ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehi
 
 An open-vocabulary, zero-shot 6D object pose estimation framework for robotic manipulation that enables language-guided target selection and dynamic switching in unstructured environments. Built on FoundationPose (CVPR 2024), the pipeline integrates SAM-3 for precise segmentation and a vision-language model to support text-driven object specification with on-the-fly geometric proxy generation.
 
-<img src="/assets/img/UIUC/computer_vision/6D Pose Estimation.gif" width="400"/>
+<p align="center"><img src="/assets/img/UIUC/computer_vision/6D Pose Estimation.gif" width="400"/></p>
 
 <hr>
 
@@ -25,15 +25,15 @@ An open-vocabulary, zero-shot 6D object pose estimation framework for robotic ma
 
 Control the UR3 via ROS2 topic-based communication and executed  pick-and place manipulation tasks including Tower of Hanoi and automatic block sorting. Used an onboard RGB camera with OpenCV to detect block color and shape, performed camera calibration, and controled with forward/inverse kinematics.
 
-<img src="/assets/img/UIUC/Intro_robotics/UR3.gif" width="450"/>
+<p align="center"><img src="/assets/img/UIUC/Intro_robotics/UR3.gif" width="450"/></p>
 
 <hr>
 
-### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="50" style="vertical-align:middle; margin-right:3px;"> Autonomous Railway Inspection Robot
+### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="80" style="vertical-align:middle; margin-right:3px;"> Autonomous Railway Inspection Robot
 
 Developed perception and autonomy for a railway inspection robot operating on active tracks. Built a multi-sensor pipeline with RGB cameras and 3D LiDAR. Implemented Gaussian Splatting–based 3D reconstruction, and designed Time-to-Collision–based speed control for safe navigation at open crossings. Contributed across perception, tracking under ego-motion, C++ real-time camera control.
 
-<img src="/assets/img/preferred_robotisc/preferred robotics.jpeg" width="250"/>
+<p align="center"><img src="/assets/img/preferred_robotisc/preferred robotics.jpeg" width="250"/></p>
 
 <hr>
 
@@ -42,7 +42,7 @@ Developed perception and autonomy for a railway inspection robot operating on ac
 
 Box Consolidation Project aimed at reducing unnecessary box types used in Amazon Fulfillment Centers to improve shipment efficiency. There were redundant 400 box types managed across FC network, complicating inventory and data management. The Box Consolidation  aligned box suites by FC type, consolidate boxes, halt less-used box production, and optimize air ratio. A Genetic Algorithm swiftly calculating optimal box lineups reduced cube per shipment by 3.2% and lead to $770,000 in annual savings.
 
-<img src="/assets/img/box_consolidation/box_consolidation.png" width="550"/>
+<p align="center"><img src="/assets/img/box_consolidation/box_consolidation.png" width="550"/></p>
 
 <hr>
 
@@ -51,7 +51,7 @@ Box Consolidation Project aimed at reducing unnecessary box types used in Amazon
 
 Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without additional Amazon packaging, hence reducing supply/transportation costs through decreased shipped volume. Developed a machine learning model to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data, using 587k data points, resulted in $600K in cost savings anually.
 
-<img src="/assets/img/SIOC_ML/SIOC.png" width="300"/>
+<p align="center"><img src="/assets/img/SIOC_ML/SIOC.png" width="300"/></p>
 
 <hr>
 
@@ -60,7 +60,8 @@ Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping i
 
 Variable Depth Box (VDB) is a packaging solution designed to adjust its height based on the size of the product, reducing air space and minimizing packaging material waste. I optimized the 3-dimensions of VDB sizes with Simulated Annealing, demonstrated a 2.16% improvement in the air ratio, based on the annual shipment record.
 
-<img src="/assets/img/box_opt_VDB/opt_curve.png" width="500"/>
+<p align="center"><img src="/assets/img/box_opt_VDB/opt_curve.png" width="500"/></p>
+
 <hr>
 
 ### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Monitoring System Deployment
@@ -68,7 +69,7 @@ Variable Depth Box (VDB) is a packaging solution designed to adjust its height b
 
 Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfillment Center equipment. It provides real-time data on operational status, productivity, and errors, extracted from PLCs controlling warehouse conveyors. The system minimizes delays in identifying issues, preventing operational process halts and delivery risks. Over 2 years, I led end-to-end from system design to deployment and subsequent maintenance as a program manager, successfully deployed across 6 new FCs.
 
-<img src="/assets/img/monitoring_system/UI_sample.png" width="500"/>
+<p align="center"><img src="/assets/img/monitoring_system/UI_sample.png" width="500"/></p>
 
 <hr>
 
@@ -77,15 +78,7 @@ Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfil
 
 The Similar Product Recommendation Tool is designed to streamline the identification of incorrectly annotated products (e.g., items marked as liquid/fragile but not meeting such criteria), mitigating risks for damaged items. It leverages TF-IDF and Cosine Similarity to accurately match input keywords with product titles or descriptions, reducing manual inspection efforts. The tool processes keyword searches via an AWS-backed architecture, providing results through a Python-based Flask server.
 
-<img src="/assets/img/Word_Similarity_Tool/System_architecture.png" width="500"/>
-
-<hr>
-
-### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="30" style="vertical-align:middle; margin-right:3px;"> Swarm Robot Navigation with Artificial Potential Fields
-
-Implemented a multi-robot navigation function using artificial potential fields to guide swarm robots to individual goals while avoiding obstacles and collisions. Robots were modeled as disks in a bounded environment, and motion was generated by following the negative gradient of a composite potential consisting of goal attraction, obstacle repulsion, and pairwise separation.
-
-<img src="/assets/img/UIUC/Intro_robotics/potential_path_planning.gif" width="550"/>
+<p align="center"><img src="/assets/img/Word_Similarity_Tool/System_architecture.png" width="500"/></p>
 
 <br>
 
@@ -104,7 +97,8 @@ Implemented a multi-robot navigation function using artificial potential fields 
   <img src="/assets/img/UIUC/safe_autonomy.png" width="140" style="background-color:white; padding:3px;"/>
   <img src="/assets/img/UIUC/safe_autonomy2.gif" width="140" style="background-color:white; padding:3px;"/>
   <img src="/assets/img/UIUC/ur3.png" width="160" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/cv_inlier.png" width="180" style="background-color:white; padding:3px;"/>
+  <img src="/assets/img/UIUC/Intro_robotics/potential_path_planning.gif" width="160" style="background-color:white; padding:3px;"/>
+
 </p>
 
 <hr>
@@ -125,7 +119,7 @@ Implemented a multi-robot navigation function using artificial potential fields 
 
 <hr>
 
-### University of Edinburgh
+### <img src="/assets/img/logo/Edinburgh.png" alt="Edinburgh" width="50" style="vertical-align:middle; margin-right:3px;"> University of Edinburgh
 <p style="text-align:center">
     Full Year Courses for Visiting Students, School of Informatics <br>
     Sep 2016 ‒ May 2017
@@ -138,7 +132,7 @@ Implemented a multi-robot navigation function using artificial potential fields 
 
 ## Work Experience
 
-### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="30" style="vertical-align:middle; margin-right:3px;"> Preferred Robotics
+### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="80" style="vertical-align:middle; margin-right:3px;"> Preferred Robotics
 <p style="text-align:center">
     <b>Robotics Software Engineer @ software team</b> <br>
     May 2025 - Aug 2025
@@ -163,7 +157,7 @@ Designed and deployed warehouse monitoring and operational tools integrating PLC
 
 <hr>
 
-#### Datumix Corp.
+#### <img src="/assets/img/logo/Datumix.jpeg" alt="Datumix" width="50" style="vertical-align:middle; margin-right:3px;"> Datumix Corp.
 
 <p style="text-align:center">
     <b>Full time internship @ Tokyo Japan/California U.S.</b> <br>
