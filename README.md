@@ -46,7 +46,7 @@ Box Consolidation Project aimed at reducing unnecessary box types used in Amazon
 
 <hr>
 
-### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Identify Ship-Ready Products with Machine Learning
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Predict Ship-Ready Products with Multi-Modal Machine Learning
 ##### [Full Project Description](/projects_at_amazon/SIOC_ML/sioc-text-ml-project)
 
 Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without additional Amazon packaging, hence reducing supply/transportation costs through decreased shipped volume. Developed a machine learning model to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data, using 587k data points, resulted in $600K in cost savings anually.
@@ -64,7 +64,7 @@ Variable Depth Box (VDB) is a packaging solution designed to adjust its height b
 
 <hr>
 
-### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Monitoring System Deployment
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Warehouse Monitoring System Development
 ##### [Full Project Description](/projects_at_amazon/monitoring_system/monitoring_system)
 
 Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfillment Center equipment. It provides real-time data on operational status, productivity, and errors, extracted from PLCs controlling warehouse conveyors. The system minimizes delays in identifying issues, preventing operational process halts and delivery risks. Over 2 years, I led end-to-end from system design to deployment and subsequent maintenance as a program manager, successfully deployed across 6 new FCs.
@@ -92,14 +92,6 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 
 - Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
 - <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Advanced Robot Planning
-
-<p align="center">
-  <img src="/assets/img/UIUC/safe_autonomy.png" width="140" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/safe_autonomy2.gif" width="140" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/ur3.png" width="160" style="background-color:white; padding:3px;"/>
-  <img src="/assets/img/UIUC/Intro_robotics/potential_path_planning.gif" width="160" style="background-color:white; padding:3px;"/>
-
-</p>
 
 <hr>
 
