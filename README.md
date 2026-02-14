@@ -111,7 +111,7 @@ The Similar Product Recommendation Tool is designed to streamline the identifica
 
 <hr>
 
-### <img src="/assets/img/logo/Edinburgh.png" alt="Edinburgh" width="50" style="vertical-align:middle; margin-right:3px;"> University of Edinburgh
+### <img src="/assets/img/logo/Edinburgh.png" alt="Edinburgh" width="60" style="vertical-align:middle"> University of Edinburgh
 <p style="text-align:center">
     Full Year Courses for Visiting Students, School of Informatics <br>
     Sep 2016 ‒ May 2017
@@ -149,7 +149,7 @@ Designed and deployed warehouse monitoring and operational tools integrating PLC
 
 <hr>
 
-#### <img src="/assets/img/logo/Datumix.jpeg" alt="Datumix" width="50" style="vertical-align:middle; margin-right:3px;"> Datumix Corp.
+#### <img src="/assets/img/logo/Datumix.jpeg" alt="Datumix" width="30" style="vertical-align:middle; margin-right:3px;"> Datumix Corp.
 
 <p style="text-align:center">
     <b>Full time internship @ Tokyo Japan/California U.S.</b> <br>
