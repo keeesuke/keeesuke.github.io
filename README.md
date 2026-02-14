@@ -1,91 +1,89 @@
 
 ## Projects
 
-### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="20" style="vertical-align:middle; margin-right:6px;"> Risk-Aware Autonomous Driving with Pedestrian Intent Prediction
+### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="30" style="vertical-align:middle; margin-right:3px;"> Risk-Aware Autonomous Driving with Pedestrian Intent Prediction
 
 ##### [Full Project Description (PDF)](/assets/img/UIUC/principal_autonomy/Autonomous_GEM_Project.pdf)
 
-ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehicle, designed to improve pedestrian safety by adapting vehicle behavior using time-to-collision (TTC) risk estimation rather than distance-only braking. The system integrates LiDAR- and RGB-D–based pedestrian perception, weighted sensor fusion with approximate time synchronization, pedestrian motion prediction, and a high-level decision state machine that gates safety-aware control, enabling earlier and more robust speed adaptation under uncertainty and intermittent detections.
+ROS 2–based autonomous driving stack deployed on the UIUC GEM e4 electric vehicle, designed to improve pedestrian safety by adapting vehicle behavior using time-to-collision risk estimation. The system integrates LiDAR- and RGB-D–based pedestrian perception, motion prediction, and a high-level decision state machine that gates safety-aware control, enabling speed adaptation under uncertainty.
 
 <img src="/assets/img/UIUC/principal_autonomy/GEMe4.gif" width="500"/>
 
 <hr>
 
-### Open-Semantic Zero-Shot 6D Pose Estimation Using SAM3 and FoundationPose
+### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="30" style="vertical-align:middle; margin-right:3px;"> Open-Vocabulary 6D Pose Estimation Using SAM3 and FoundationPose
 
 ##### [Full Project Description (PDF)](/assets/img/UIUC/computer_vision/6D_Pose_Estimation_Project.pdf)
 
-This project presents an open-vocabulary, zero-shot 6D object pose estimation framework for robotic manipulation that enables language-guided target selection and dynamic switching in unstructured environments. Built on FoundationPose (CVPR 2024), the pipeline integrates SAM-3 for precise segmentation and a lightweight vision-language model to support text-driven object specification, while removing reliance on pre-registered CAD models through on-the-fly geometric proxy generation, enabling robust 6D pose tracking even under significant occlusion.
+An open-vocabulary, zero-shot 6D object pose estimation framework for robotic manipulation that enables language-guided target selection and dynamic switching in unstructured environments. Built on FoundationPose (CVPR 2024), the pipeline integrates SAM-3 for precise segmentation and a vision-language model to support text-driven object specification with on-the-fly geometric proxy generation.
 
 <img src="/assets/img/UIUC/computer_vision/6D Pose Estimation.gif" width="400"/>
-<p style="font-size:10px">
-reference: nvlabs.github.io/FoundationPose</p>
 
 <hr>
 
-### UR3 Robotic Arm Vision-Based Manipulation
+### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="30" style="vertical-align:middle; margin-right:3px;"> UR3 Robotic Arm Vision-Based Manipulation
 
-Implemented ROS nodes to control the UR3 via topic-based communication and executed structured manipulation tasks including Tower of Hanoi and automatic block sorting. Used an onboard RGB camera with OpenCV to detect block color and shape, performed camera calibration, and mapped image coordinates to real-world 3D positions, enabling autonomous pick-and-place based on visual perception. Derived geometric inverse kinematics for an elbow-up configuration and validated accuracy through forward kinematics and real-world execution on the physical robot.
+Control the UR3 via ROS2 topic-based communication and executed  pick-and place manipulation tasks including Tower of Hanoi and automatic block sorting. Used an onboard RGB camera with OpenCV to detect block color and shape, performed camera calibration, and controled with forward/inverse kinematics.
 
 <img src="/assets/img/UIUC/Intro_robotics/UR3.gif" width="450"/>
 
 <hr>
 
-### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="10" style="vertical-align:middle; margin-right:6px;"> Autonomous Railway Inspection Robot
+### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="50" style="vertical-align:middle; margin-right:3px;"> Autonomous Railway Inspection Robot
 
-Developed perception and autonomy for a railway inspection robot operating on active tracks. Built a multi-sensor pipeline with RGB cameras, 3D LiDAR, IMU, and GNSS. Implemented Gaussian Splatting–based 3D reconstruction, and designed Time-to-Collision–based speed control for safe navigation at open crossings. Contributed across perception, tracking under ego-motion, C++ camera systems integration.
+Developed perception and autonomy for a railway inspection robot operating on active tracks. Built a multi-sensor pipeline with RGB cameras and 3D LiDAR. Implemented Gaussian Splatting–based 3D reconstruction, and designed Time-to-Collision–based speed control for safe navigation at open crossings. Contributed across perception, tracking under ego-motion, C++ real-time camera control.
 
-<img src="/assets/img/preferred_robotisc/preferred robotics.jpeg" width="400"/>
+<img src="/assets/img/preferred_robotisc/preferred robotics.jpeg" width="250"/>
 
 <hr>
 
-### Box Combinatorial Optimization with Genetic Algorithm
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;">  Box Combinatorial Optimization with Genetic Algorithm
 ##### [Full Project Description](/projects_at_amazon/box_consolidation/box_consolidation)
 
-Box Consolidation Project aimed at reducing unnecessary box types used in Amazon Fulfillment Centers (FC) to improve shipment efficiency. There were 400 box types managed across FC network, with many rarely used boxes and redundant similar sizes complicating inventory and data management. The Box Consolidation will align box suites by FC type, consolidate boxes, halt less-used box production, and optimize air ratio; it is initially being implemented across all FCs in Japan where it is expected to reduce cube per shipment by 3.2% and lead to $770,000 in annual savings. I employed a Genetic Algorithm to swiftly calculate optimal box lineups specialized for each FC type out of the vast number of possible box combinations.
+Box Consolidation Project aimed at reducing unnecessary box types used in Amazon Fulfillment Centers to improve shipment efficiency. There were redundant 400 box types managed across FC network, complicating inventory and data management. The Box Consolidation  aligned box suites by FC type, consolidate boxes, halt less-used box production, and optimize air ratio. A Genetic Algorithm swiftly calculating optimal box lineups reduced cube per shipment by 3.2% and lead to $770,000 in annual savings.
 
 <img src="/assets/img/box_consolidation/box_consolidation.png" width="550"/>
 
 <hr>
 
-### Identify Ship-Ready Products with Machine Learning
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Identify Ship-Ready Products with Machine Learning
 ##### [Full Project Description](/projects_at_amazon/SIOC_ML/sioc-text-ml-project)
 
-Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without Amazon packaging, hence reducing supply costs and transportation costs through decreased shipped volume. I developed a machine learning model to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data, using 587k data points and techniques like Word2Vec and Topic Modeling. The SIOC inventory expansion program, enabled by the ML prioritization model, is estimated to drive over $600K in cost savings anually.
+Ship in Own Container (SIOC) is a shipping type that reduces costs by shipping items without additional Amazon packaging, hence reducing supply/transportation costs through decreased shipped volume. Developed a machine learning model to predict SIOC likelihood and prioritize inspections to maximize future SIOC shipments. The model was trained on historical data, using 587k data points, resulted in $600K in cost savings anually.
 
 <img src="/assets/img/SIOC_ML/SIOC.png" width="300"/>
 
 <hr>
 
-### 3-Dimensional Box Size Optimization
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> 3-Dimensional Box Size Optimization
 ##### [Full Project Description](/projects_at_amazon/box_opt_VDB/box_opt_VDB)
 
-One of our team goals is to contribute to sustainability by reducing CO2 emissions and plastic usage through packaging optimization. Variable Depth Box (VDB) is a packaging solution designed to adjust its height based on the size of the product, reducing air space and minimizing packaging material waste. I developed a tool to optimize the three-dimensions of VDB sizes with Simulated Annealing, one of optimization algorithm, and demonstrated a 2.16% improvement in the air ratio, based on the annual shipment record. While the simulated annealing proved effective in finding optimal box size lineup, there are some rooms for further algorithm refinement such as slow convergence and sensitivity to initial parameters.
+Variable Depth Box (VDB) is a packaging solution designed to adjust its height based on the size of the product, reducing air space and minimizing packaging material waste. I optimized the 3-dimensions of VDB sizes with Simulated Annealing, demonstrated a 2.16% improvement in the air ratio, based on the annual shipment record.
 
 <img src="/assets/img/box_opt_VDB/opt_curve.png" width="500"/>
 <hr>
 
-### Monitoring System Deployment
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Monitoring System Deployment
 ##### [Full Project Description](/projects_at_amazon/monitoring_system/monitoring_system)
 
-Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfillment Center (FC) equipment. It provides real-time and historical data on operational status, productivity, and errors, extracted from PLCs controlling warehouse conveyors. The system minimizes delays in identifying issues, preventing operational process halts and delivery risks by alerting on-site associates to abnormalities. I, as a program manager, led the Seiren project end-to-end from system design to deployment and subsequent maintenance, and successfully deployed the system across 6 new FCs over the course of two years.
+Seiren is an in-house visualization system by Amazon Japan for monitoring Fulfillment Center equipment. It provides real-time data on operational status, productivity, and errors, extracted from PLCs controlling warehouse conveyors. The system minimizes delays in identifying issues, preventing operational process halts and delivery risks. Over 2 years, I led end-to-end from system design to deployment and subsequent maintenance as a program manager, successfully deployed across 6 new FCs.
 
 <img src="/assets/img/monitoring_system/UI_sample.png" width="500"/>
 
 <hr>
 
-### Similar Product Recommendation Tool
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Similar Product Recommendation Tool
 ##### [Full Project Description](/projects_at_amazon/Word_Similarity_Tool/word_similarity_tool)
 
-The Similar Product Recommendation Tool is designed to streamline the identification of incorrectly annotated products (e.g., items marked as liquid/fragile but not meeting such criteria). It leverages TF-IDF and Cosine Similarity to accurately match input keywords with product titles or descriptions, reducing manual inspection efforts. The tool processes keyword searches via an AWS-backed architecture, providing results through a Python-based Flask server. I designed and developed the User Interface and the backend system architecture for our team to utilize for their internal use case. Potential broader applications include identifying SIOC-eligible products to cut packaging costs and mitigating risks for damaged items by analyzing similarities.
+The Similar Product Recommendation Tool is designed to streamline the identification of incorrectly annotated products (e.g., items marked as liquid/fragile but not meeting such criteria), mitigating risks for damaged items. It leverages TF-IDF and Cosine Similarity to accurately match input keywords with product titles or descriptions, reducing manual inspection efforts. The tool processes keyword searches via an AWS-backed architecture, providing results through a Python-based Flask server.
 
 <img src="/assets/img/Word_Similarity_Tool/System_architecture.png" width="500"/>
 
 <hr>
 
-### Swarm Robot Navigation with Artificial Potential Fields
+### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="30" style="vertical-align:middle; margin-right:3px;"> Swarm Robot Navigation with Artificial Potential Fields
 
-Implemented a multi-robot navigation function using artificial potential fields to guide swarm robots to individual goals while avoiding obstacles, walls, and inter-robot collisions. Robots were modeled as disks in a bounded environment, and motion was generated by following the negative gradient of a composite potential consisting of goal attraction, obstacle repulsion, pairwise separation, and boundary barriers.
+Implemented a multi-robot navigation function using artificial potential fields to guide swarm robots to individual goals while avoiding obstacles and collisions. Robots were modeled as disks in a bounded environment, and motion was generated by following the negative gradient of a composite potential consisting of goal attraction, obstacle repulsion, and pairwise separation.
 
 <img src="/assets/img/UIUC/Intro_robotics/potential_path_planning.gif" width="550"/>
 
@@ -93,14 +91,14 @@ Implemented a multi-robot navigation function using artificial potential fields 
 
 ## Education
 
-### University of Illinois, Urbana-Champaign 
+### <img src="/assets/img/logo/UIUC.png" alt="UIUC" width="30" style="vertical-align:middle; margin-right:3px;"> University of Illinois, Urbana-Champaign 
 <p style="text-align:center">
     Master of Engineering in Autonomy & Robotics <br>
     August 2025 ‒ (Exp.) Dec 2026
 </p>
 
 - Professionally oriented program focusing on software systems, electronics, machine learning, dynamics, control, and sensor integration for autonomous systems.
-- <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Intro to Robotics
+- <b>Relative courses</b>: Principles of Safe Autonomy, Computer Vision, Mobile Robotics, Advanced Robot Planning
 
 <p align="center">
   <img src="/assets/img/UIUC/safe_autonomy.png" width="140" style="background-color:white; padding:3px;"/>
@@ -111,7 +109,7 @@ Implemented a multi-robot navigation function using artificial potential fields 
 
 <hr>
 
-### Yokohama National University
+### <img src="/assets/img/logo/YNU.png" alt="YNU" width="30" style="vertical-align:middle; margin-right:3px;"> Yokohama National University
 <p style="text-align:center">
     B.E., Material Science and Mechanical Engineering <br>
     Apr 2014 ‒ Mar 2019
@@ -140,7 +138,7 @@ Implemented a multi-robot navigation function using artificial potential fields 
 
 ## Work Experience
 
-### Preferred Robotics
+### <img src="/assets/img/logo/Preferred_Robotics.png" alt="PR" width="30" style="vertical-align:middle; margin-right:3px;"> Preferred Robotics
 <p style="text-align:center">
     <b>Robotics Software Engineer @ software team</b> <br>
     May 2025 - Aug 2025
@@ -149,7 +147,7 @@ Worked on the development of an in-house mobile inspection robot operating along
 
 <hr>
 
-### Amazon Japan
+### <img src="/assets/img/logo/Amazon.png" alt="Amazon" width="50" style="vertical-align:middle; margin-right:3px;"> Amazon Japan
 
 <p style="text-align:center">
     <b>Sr.Engineer @ Customer Packaging Experience team</b> <br>
